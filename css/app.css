@@ -1279,15 +1279,7 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content {
   [class*="bs-callout"].callout-square .media, [class*="bs-callout"].callout-square .callout-arrow-left, [class*="bs-callout"].callout-square .callout-arrow-right {
     border-radius: 0 !important; }
 
-/*=========================================================================================
-	File Name: demo.scss
-	Description: CSS used for demo purpose only. Remove this css from your project.
-	----------------------------------------------------------------------------------------
-	Item Name: Robust - Responsive Admin Theme
-	Version: 1.2
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
+
 .fonticon-container > .fonticon-wrap {
   float: left;
   width: 60px;

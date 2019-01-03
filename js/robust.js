@@ -51,10 +51,6 @@ require( ["js/qlik"], function ( qlik ) {
 	
 	app.getObject('KPI-03','JQaqbM');
 	
-	
-	
-	
-	
 	app.getObject('CurrentSelections','CurrentSelections');
 	
 	
@@ -62,6 +58,7 @@ require( ["js/qlik"], function ( qlik ) {
 	//create cubes and lists -- inserted here --
 	
 	
+    
 } );
 
 
@@ -105,3 +102,4 @@ function chamaSobre(){
     });
     $("#CurrentSelections").hide();
 }
+
