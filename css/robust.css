@@ -1,0 +1,115 @@
+html, body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;       
+}
+
+.font-large-1{
+    font-size: 1.5rem !important;
+}
+
+.icon2{
+    font-family: 'icomoon' !important;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 45px 45px 0;
+}
+
+.qvplaceholder, .qvobject {
+	flex: 1 1 auto;
+	height: 100%;
+	min-width: 20px;
+	margin: 0px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+
+#popup {
+	background-color: #c3534b;
+	color: #FFFFFF;
+	position: fixed;
+	max-width: 250px;
+	padding: 10px;
+	margin: 10px;
+	bottom: 0;
+	right: 0;
+	display: none;
+	border-radius: 5px;
+	z-index: 6;
+	font-family: sans-serif;
+}
+
+.close {
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .2;
+	position: absolute;
+	right: 9px;
+	top: 7px;
+}
+
+.close:hover {
+	opacity: .5;
+}
+
+#popupText {
+	margin-right: 23px;
+}
+
+.content{
+    height: 100%;  
+}
+
+iframe{
+    border: none;
+	width: 100%;
+    height: 99.25%;
+    overflow: hidden;
+}
+
+.heading-elements{
+    z-index: 99;
+}
+
+.height-382{
+    height: 382px;
+}
+
+/*.hidden-screen-reader-label, .click-again-overlay{
+	display: none;
+}
+.ng-isolate-scope{
+    vertical-align: middle;
+}*/
+
+.ng-binding{
+    color: white;
+}
+.kpi{
+    height: 6vw;
+    max-height: 180px;
+    min-height: 80px;
+    /*background: #fff;*/
+    border-radius: 2px;
+}
+.card-block{
+    padding: 0.5rem;
+}
+
+.qv{
+    margin: 5px;   
+    margin-top: -32px;
+}
+
+.heading-elements-toggle{
+    z-index: 99;
+}

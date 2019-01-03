@@ -1,0 +1,15 @@
+{
+	"type": "mashup",
+	"name": "robust",
+	"version": "1.0.0",
+	"description": "robust",
+    "preview" : "img/preview.png",
+	"homepage": "",
+	"author": "",
+	"keywords": "qlik-sense, mashup",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=2.1.x"
+	}
+}
