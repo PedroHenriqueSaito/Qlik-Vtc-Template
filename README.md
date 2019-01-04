@@ -1,2 +1,2 @@
 # Qlik-Vtc-Template
-Template QlikSense
+Template QlikSense baseado no Robust Template
