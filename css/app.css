@@ -1813,148 +1813,60 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content {
     font-family: "xs 0px"; }
   body:after {
     content: "xs - min-width: 0px"; }
-  #CurrentSelections {
-    width: 100%;
-  }
+  
 }
 
-@media screen and (min-width: 544px) {
+@media screen and (min-width: 580px) {
   head {
-    font-family: "sm 544px"; }
+    font-family: "sm 580px"; }
   body:after {
-    content: "sm - min-width: 544px"; }
-  #CurrentSelections {
-    width: 100%;
-  }
+    content: "sm - min-width: 580px"; }
+    
 }
+
 @media screen and (min-width: 768px) {
   head {
     font-family: "md 768px"; }
   body:after {
     content: "md - min-width: 768px"; }
-  #CurrentSelections {
-    width: 72%;
-  }
-}
-@media screen and (min-width: 800px) {
-  head {
-    font-family: "md 800px"; }
-  body:after {
-    content: "md - min-width: 800px"; }
-  #CurrentSelections {
-    width: 73%;
-  }
-}
-@media screen and (min-width: 827px) {
-  head {
-    font-family: "md 827px"; }
-  body:after {
-    content: "md - min-width: 827px"; }
-  #CurrentSelections {
-    width: 74%;
-  }
-}
-@media screen and (min-width: 853px) {
-  head {
-    font-family: "md 853px"; }
-  body:after {
-    content: "md - min-width: 853px"; }
-  #CurrentSelections {
-    width: 75%;
-  }
-}
-@media screen and (min-width: 875px) {
-  head {
-    font-family: "md 875px"; }
-  body:after {
-    content: "md - min-width: 875px"; }
-  #CurrentSelections {
-    width: 76%;
-  }
-}
-@media screen and (min-width: 910px) {
-  head {
-    font-family: "md 910px"; }
-  body:after {
-    content: "md - min-width: 910px"; }
-  #CurrentSelections {
-    width: 77%;
-  }
+    .tamanho{
+        padding-left: 203px;
+    }
+    .tamanhodash{padding-left: 100px}
 }
 
-@media screen and (min-width: 951px) {
+@media screen and (min-width:  882px) {
   head {
-    font-family: "md 951px"; }
+    font-family: "md 882px"; }
   body:after {
-    content: "md - min-width: 951px"; }
-  #CurrentSelections {
-    width: 78%;
-  }
-}
-@media screen and (min-width:1011px) {
-  head {
-    font-family: "lg 1011px"; }
-  body:after {
-    content: "lg - min-width:1011px"; }
-  #CurrentSelections {
-    width: 75%;
-  }
+    content: "md - min-width: 882px"; }
+    .tamanho{
+        padding-left: 203px;
+    }
+    .tamanhodash{padding-left: 120px}
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 992px) {
   head {
-    font-family: "xl 1050px"; }
+    font-family: "lg 992px"; }
   body:after {
-    content: "xl - min-width: 1050px"; } 
-  #CurrentSelections {
-    width: 76%;
-  }
+    content: "lg - min-width: 992px"; }
+  .tamanho{
+        padding-left: 203px;
+    }
+    .tamanhodash{padding-left: 120px}
 }
-@media screen and (min-width: 1115px) {
-  head {
-    font-family: "xl 1115px"; }
-  body:after {
-    content: "xl - min-width: 1115px"; } 
-  #CurrentSelections {
-    width: 77%;
-  }
-}
-@media screen and (min-width: 1150px) {
-  head {
-    font-family: "xl 1150px"; }
-  body:after {
-    content: "xl - min-width: 1150px"; } 
-  #CurrentSelections {
-    width: 77%;
-  }
-}
+
 @media screen and (min-width: 1200px) {
   head {
     font-family: "xl 1200px"; }
   body:after {
     content: "xl - min-width: 1200px"; } 
-  #CurrentSelections {
-    width: 78%;
-  }
-}
-@media screen and (min-width: 1255px) {
-  head {
-    font-family: "xl 1255px"; }
-  body:after {
-    content: "xl - min-width: 1255px"; } 
-  #CurrentSelections {
-    width: 79%;
-  }
-}
-@media screen and (min-width: 1290px) {
-  head {
-    font-family: "xl 1200px"; }
-  body:after {
-    content: "xl - min-width: 1200px"; } 
-  #CurrentSelections {
-    width: 80%;
-  }
-}
+    .tamanho{
+        padding-left: 203px;
+    }
+    .tamanhodash{padding-left: 120px}
+}  
 
 head {
   clear: both; }

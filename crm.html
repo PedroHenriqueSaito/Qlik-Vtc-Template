@@ -59,13 +59,10 @@
                         <li class="nav-item hidden-sm-down"><a class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="icon-menu5"></i></a></li>
                         <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-link-expand"><i class="icon-expand2"></i></a></li>
                         <li class="nav-item hidden-sm-down"><a href="#" onclick="appCRM()" class="btn btn-success upgrade-to-pro">Abrir app</a></li>
-                        <li><div id="CurrentSelections" class="qvobjects"></div></li>
+                        <li class="tamanho"><div id="CurrentSelections" class="qvobjects"></div></li>
                     </ul>                    
 
                     <!--ul class="nav navbar-nav float-xs-right ">
-
-                        
-                        
                         <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"></span><span class="user-name"><div id="user"></div></span></a>
                             <div class="dropdown-menu dropdown-menu-right"><a href="#" class="dropdown-item"><i class="icon-power3"></i>
                                     Logout</a>
@@ -89,20 +86,23 @@
         <!-- main menu content-->
         <div class="main-menu-content">
             <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
-                <li class="nav-item hidden-md-up" ><a href="#" onclick="appCRM()" class="btn btn-success upgrade-to-pro" style="text-align: left; color: white">Abrir app</a></li>
-                <li class="nav-item" onclick="chamaDash()"><a href="#"><i class="icon-home3"></i><span data-i18n="nav.dash.main" class="menu-title">Dashboard</span></a>
+                
+                <li class="hidden-md-up bg-green bg-darken-2" onclick="appCRM()"><a><i class="icon-folder-open"></i><span class="menu-title font-weight-bold">Abrir aplicativo</span></a>
                 </li>
-                <li class=" nav-item active"><a href="crm.html"><i class="icon-stack-2"></i><span data-i18n="nav.page_layouts.main" class="menu-title">CRM</span></a>
+                
+                <li class="nav-item" onclick="chamaDash()"><a href="#"><i class="icon-meter"></i><span class="menu-title">Dashboard</span></a>
                 </li>
-                <li class=" nav-item"><a href="sac.html"><i class="icon-briefcase4"></i><span data-i18n="nav.project.main" class="menu-title">SAC</span></a>
+                <li class=" nav-item active"><a href="crm.html"><i class="icon-user"></i><span class="menu-title">CRM</span></a>
                 </li>
-                <li class=" nav-item"><a href="cobranca.html"><i class="icon-ios-albums-outline"></i><span data-i18n="nav.cards.main" class="menu-title">Cobrança</span></a>
+                <li class=" nav-item"><a href="sac.html"><i class="icon-phone"></i><span class="menu-title">SAC</span></a>
+                </li>
+                <li class=" nav-item"><a href="cobranca.html"><i class="icon-coin-dollar"></i><span class="menu-title">Cobrança</span></a>
                 </li>
                 <li class=" navigation-header"><span data-i18n="nav.category.support">Suporte</span><i data-toggle="tooltip" data-placement="right" data-original-title="Support" class="icon-ellipsis icon-ellipsis"></i>
                 </li>
                 <li class=" nav-item" onclick="chamaSuporte()"><a><i class="icon-support"></i><span data-i18n="nav.support_raise_support.main" class="menu-title">Contatar o suporte</span></a>
                 </li>
-                <li class=" nav-item" onclick="chamaSobre()"><a><i class="icon-document-text"></i><span data-i18n="nav.support_documentation.main" class="menu-title">Sobre</span></a>
+                <li class=" nav-item" onclick="chamaSobre()"><a><i class="icon-document-text"></i><span class="menu-title">Sobre</span></a>
                 </li>
             </ul>
         </div>
@@ -124,7 +124,7 @@
                 
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-xs-12">
-                        <div class="card bg-success">
+                        <div class="card bg-green bg-darken-1">
                             <div class="card-block">
                                 <div class="media">
                                     <div class="media-body text-xs-left">
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-xs-12">
-                        <div class="card bg-warning">
+                        <div class="card bg-green bg-darken-1">
                             <div class="card-body">
                                 <div class="card-block">
                                     <div class="media">
@@ -156,7 +156,7 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-xs-12">
-                        <div class="card bg-info">
+                        <div class="card bg-green bg-darken-1">
                             <div class="card-body">
                                 <div class="card-block">
                                     <div class="media">
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-xs-12">
-                        <div class="card bg-danger">
+                        <div class="card bg-green bg-darken-1">
                             <div class="card-body">
                                 <div class="card-block">
                                     <div class="media">

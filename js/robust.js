@@ -45,6 +45,7 @@ require( ["js/qlik"], function ( qlik ) {
 
 
 	//get objects -- inserted here --
+	app.getObject('QV1-01','fEfWrNz');
 	app.getObject('KPI-01','evnNj');
 	
 	app.getObject('KPI-02','bxfrj');

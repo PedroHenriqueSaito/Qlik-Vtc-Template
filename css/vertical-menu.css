@@ -94,14 +94,14 @@ body.vertical-layout.vertical-menu.menu-collapsed .main-menu {
   body.vertical-layout.vertical-menu.menu-collapsed .main-menu .user-content {
     padding: 20px 10px; }
   body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > span.menu-title, body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content a.menu-title {
-    right: -240px;
-    width: 240px;
+    right: -200px;
+    width: 200px;
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
     text-align: left;
-    background-color: #967ADC;
-    border-color: #967ADC;
+    background-color: #5E34C6;
+    border-color: #5E34C6;
     padding: 11px 20px; }
   body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content {
     left: 60px;
